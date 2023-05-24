@@ -1,0 +1,56 @@
+body {
+	background-image: url("A.jpg");
+	background-repeat: repeat-x;
+	background-size: 555px;
+	background-blend-mode: screen;
+	background-position: center;
+	
+}
+
+p {
+	text-align: center;
+	color: indianred;
+	font: oblique;
+	font-size: 50;
+	background-color: red;
+	
+}
+img {
+	height: 600;
+	width: 600;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-attachment: url("display");
+}
+header {
+	color: red;
+	background-color: green;
+
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}	
+nav ul li {
+	padding: 20px;
+}
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	background-blend-mode: overlay;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	color: red;
+}
+h4 {
+	color: green;
+	stroke: black;
+
+}
